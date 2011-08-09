@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Sybase PowerBuilder .NET Solution File
+Project("{1E00F042-675A-11D2-BCA5-000086095DDA}") = "dw2structnv (D:\Temp\PBAddinDw2Struct)", "dw2structnv.pbtx", "{378C2BCA-559C-4142-A31C-7B39F6912EEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{378C2BCA-559C-4142-A31C-7B39F6912EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378C2BCA-559C-4142-A31C-7B39F6912EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8635001A-4118-4361-9590-6DCE3B262CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8635001A-4118-4361-9590-6DCE3B262CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

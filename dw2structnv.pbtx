@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project MSBuildVersion="2.0" ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="ResolveAssemblyReferences" />
+  <PropertyGroup>
+    <Name>dw2structnv</Name>
+    <SchemaVersion>2</SchemaVersion>
+    <ProjectGuid>{378c2bca-559c-4142-a31c-7b39f6912eec}</ProjectGuid>
+    <Comment>
+    </Comment>
+    <CreateNewFolder>true</CreateNewFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <Platform>AnyCPU</Platform>
+    <AssemblyName>dw2structnv</AssemblyName>
+    <RootNamespace>dw2structnv</RootNamespace>
+    <OutputType>Library</OutputType>
+    <TargetType>DotNetAssembly</TargetType>
+    <ApplicationName>dw2structnv</ApplicationName>
+    <ApplicationObject>dw2structnv</ApplicationObject>
+    <ApplicationLibrary>dw2structnv.pbl\dw2structnv.pblx</ApplicationLibrary>
+    <PBOriginalVersion>12.5</PBOriginalVersion>
+    <ReferencePath>$(DevEnvDir)\DotNET\bin</ReferencePath>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <LibraryList>{8635001a-4118-4361-9590-6dce3b262cce}</LibraryList>
+    <PBProjectDefault>{8635001a-4118-4361-9590-6dce3b262cce},p_dw2structnv.srj,41Fxx;</PBProjectDefault>
+    <PBProjectsDeploy>{8635001a-4118-4361-9590-6dce3b262cce},p_dw2structnv.srj,41Fxx;</PBProjectsDeploy>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>dw2structnv.out\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>dw2structnv.out\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WPF.Controls.Skins, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sybase.PowerBuilder.WCF.Runtime, Version=12.5.0.0, Culture=neutral, PublicKeyToken=598c7456a83d557a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SubProject Include="dw2structnv.pbl\dw2structnv.pblx">
+      <TypeGuid>{1e00f043-675a-11d2-bca5-000086095dda}</TypeGuid>
+      <Name>dw2structnv</Name>
+      <InstanceGuid>{8635001a-4118-4361-9590-6dce3b262cce}</InstanceGuid>
+    </SubProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sybase\PowerBuilder\12.5\PowerBuilder.targets" />
+</Project>
